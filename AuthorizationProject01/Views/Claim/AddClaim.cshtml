@@ -1,0 +1,44 @@
+﻿<form method="post" asp-action="AddClaim">
+    <div>
+        <label>Email:</label>
+        <input type="email" name="email" />
+    </div>
+    <div>
+        <label for="ClaimType">Claim Type</label>
+        <input type="text" id="ClaimType" name="ClaimType" required />
+    </div>
+    @* <div>
+        <label for="ClaimValue">Claim Value</label>
+        <input type="text" id="ClaimValue" name="ClaimValue" required />
+    </div> *@
+    <div>
+        <label for="ClaimValue">Select Claim</label>
+        <select id="Id" name="ClaimValue" asp-items="ViewBag.ClaimList"></select>
+        @*   <label for="CategoryId">Category</label>
+        <select id="CategoryId" name="CategoryId">
+            @foreach (var category in Model.Categories)
+            {
+                <option value="@category.Id">@category.Name</option>
+            }
+        </select> *@
+    </div>
+    <button type="submit">Add Claim</button>
+</form>
+
+@* <h2>Add Claim to User</h2>
+<form method="post">
+    <div>
+        <label>Email:</label>
+        <input type="email" name="email" />
+    </div>
+    <div>
+        <label>Claim Type:</label>
+        <input type="text" name="claimType" />
+    </div>
+    <div>
+        <label>Claim Value:</label>
+        <input type="text" name="claimValue" />
+    </div>
+    <button type="submit">Add Claim</button>
+</form>
+ *@

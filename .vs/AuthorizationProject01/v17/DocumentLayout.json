@@ -1,0 +1,393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\AuthorizationProject01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\services\\userclaimsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\services\\userclaimsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\controllers\\infopage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\controllers\\infopage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\models\\claimlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\models\\claimlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\models\\fieldpermissionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\models\\fieldpermissionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\infopage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\infopage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\claim\\addclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\claim\\addclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\claim\\viewclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\claim\\viewclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\home\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\home\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\role\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\role\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\role\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\role\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\home\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\home\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|d:\\projects\\authorizationproject01\\authorizationproject01\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9721AE13-BC79-4970-92D5-9245E63C136E}|AuthorizationProject01\\AuthorizationProject01.csproj|solutionrelative:authorizationproject01\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserClaimsService.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Services\\UserClaimsService.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Services\\UserClaimsService.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Services\\UserClaimsService.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Services\\UserClaimsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:57:33.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InfoPage.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\InfoPage.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Controllers\\InfoPage.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\InfoPage.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Controllers\\InfoPage.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowBUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:58:19.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FieldPermissionsViewModel.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Models\\FieldPermissionsViewModel.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Models\\FieldPermissionsViewModel.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Models\\FieldPermissionsViewModel.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Models\\FieldPermissionsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:01:23.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClaimList.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Models\\ClaimList.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Models\\ClaimList.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Models\\ClaimList.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Models\\ClaimList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:55:54.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:53:25.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Program.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Program.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Program.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:47:15.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Controllers\\ClaimController.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAjwB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:41:25.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:54:13.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\InfoPage\\Index.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\InfoPage\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\InfoPage\\Index.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\InfoPage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T14:22:17.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T14:43:31.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddClaim.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Claim\\AddClaim.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Claim\\AddClaim.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Claim\\AddClaim.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Claim\\AddClaim.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T14:42:23.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext .cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\ApplicationDbContext .cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\ApplicationDbContext .cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\ApplicationDbContext .cs",
+              "RelativeToolTip": "AuthorizationProject01\\ApplicationDbContext .cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:29:37.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminPage.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Home\\AdminPage.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Home\\AdminPage.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Home\\AdminPage.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Home\\AdminPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T11:06:45.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AssignRole.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Role\\AssignRole.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Role\\AssignRole.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Role\\AssignRole.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Role\\AssignRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T14:40:37.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\appsettings.json",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\appsettings.json",
+              "RelativeToolTip": "AuthorizationProject01\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T13:30:16.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewClaims.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Claim\\ViewClaims.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Claim\\ViewClaims.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Claim\\ViewClaims.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Claim\\ViewClaims.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T14:42:47.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Role\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Role\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T14:38:53.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Role\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Role\\CreateRole.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Role\\CreateRole.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Role\\CreateRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T14:39:55.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Reports.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Home\\Reports.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Home\\Reports.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Home\\Reports.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Home\\Reports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T11:07:13.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T09:56:11.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:19:17.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:18:18.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AuthorizationProject01\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Projects\\AuthorizationProject01\\AuthorizationProject01\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "AuthorizationProject01\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T14:17:50.329Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
