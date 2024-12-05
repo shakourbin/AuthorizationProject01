@@ -3,23 +3,27 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-[Authorize(Roles = "User")]
+//[Authorize(Roles = "User")]
+[Authorize(Policy = "PolicyViewInfo")]
 public class InfoPageController : Controller
 {
     private readonly UserManager<IdentityUser> _userManager;
     private readonly UserClaimsService _userClaimsService;
-   // private readonly IHttpContextAccessor _httpContextAccessor;
+    private readonly IHttpContextAccessor _httpContextAccessor;
+    private readonly ApplicationDbContext _dbContext;
 
-    public InfoPageController(UserManager<IdentityUser> userManager, UserClaimsService userClaimsService /*IHttpContextAccessor httpContextAccessor*/)
+    public InfoPageController(UserManager<IdentityUser> userManager, ApplicationDbContext dbContext)
     {
         _userManager = userManager;
-        // _httpContextAccessor = httpContextAccessor;
-        _userClaimsService = userClaimsService;
+        _dbContext = dbContext;
     }
+
+    
     public async Task<IActionResult> Index()
     {
+        UserClaimsService claimsService = new UserClaimsService(_dbContext);
         var user = await _userManager.GetUserAsync(User);
-        var userClaims = await _userClaimsService.GetUserClaimsAsync(user.Id);
+        var userClaims = await claimsService.GetUserClaimsAsync(user.Id);
 
         // Determine field permissions
         var viewName = userClaims.Any(c => c.Value == "ViewName");
@@ -51,6 +55,7 @@ public class InfoPageController : Controller
     }
 
     [HttpPost]
+    [Authorize(Policy = "PolicySubmitInfo")]
     public IActionResult Submit(string name, string surname, DateTime birthday, int bankAccount)
     {
         // Process the submitted data

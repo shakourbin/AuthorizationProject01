@@ -4,8 +4,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -30,6 +28,11 @@ builder.Services.Configure<IdentityOptions>(options =>
 builder.Services.AddControllersWithViews();
 //builder.Services.AddAuthentication("CookieAuth")
 //  .AddCookie("CookieAuth", options =>
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
   .AddCookie(options =>
     {
@@ -40,8 +43,34 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
-    options.AddPolicy("CanViewReports", policy => policy.RequireClaim("CanViewReports", "true"));
+    using (var scope = builder.Services.BuildServiceProvider().CreateScope())
+    {
+        var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+        // Load policy definitions from the database
+        var policies = dbContext.PolicyDefinition;
+
+        // Iterate through each policy and add them to the authorization options
+        foreach (var policy in policies)
+        {
+            // If a role is specified, add a policy requiring the role and the claim
+            if (!string.IsNullOrEmpty(policy.Role))
+            {
+                options.AddPolicy(policy.PolicyName, policyBuilder =>
+                    policyBuilder.RequireRole(policy.Role)
+                                 .RequireClaim(policy.ClaimType, policy.ClaimValue));
+            }
+            else
+            {
+                // If no role is specified, just require the claim
+                options.AddPolicy(policy.PolicyName, policyBuilder =>
+                    policyBuilder.RequireClaim(policy.ClaimType, policy.ClaimValue));
+            }
+        }
+    }
+
+    //options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+    //options.AddPolicy("CanViewReports", policy => policy.RequireClaim("CanViewReports", "true"));
     //options.AddPolicy("CanViewReports", policy => policy.RequireClaim("CanViewReports"));
 });
 

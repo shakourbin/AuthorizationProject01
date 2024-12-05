@@ -11,6 +11,7 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     }
 
     public DbSet<ClaimList> ClaimLists { get; set; }
+    public DbSet<PolicyDefinition> PolicyDefinitions { get; set; }
 
     //protected override void OnModelCreating(ModelBuilder builder)
     //{
