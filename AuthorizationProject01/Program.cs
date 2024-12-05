@@ -41,14 +41,14 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
                                                 // options.LoginPath = "/Account/Login";
     });
 
-builder.Services.AddAuthorization(options =>
+builder.Services.AddAuthorization(async options =>
 {
     using (var scope = builder.Services.BuildServiceProvider().CreateScope())
     {
         var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
 
         // Load policy definitions from the database
-        var policies = dbContext.PolicyDefinition;
+        var policies = await dbContext.PolicyDefinition.ToListAsync();
 
         // Iterate through each policy and add them to the authorization options
         foreach (var policy in policies)

@@ -11,7 +11,14 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     }
 
     public DbSet<ClaimList> ClaimLists { get; set; }
-    public DbSet<PolicyDefinition> PolicyDefinitions { get; set; }
+    public DbSet<PolicyDefinition> PolicyDefinition { get; set; }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        // Ensure correct table name mapping (if needed)
+        modelBuilder.Entity<PolicyDefinition>().ToTable("PolicyDefinition");
+    }
 
     //protected override void OnModelCreating(ModelBuilder builder)
     //{
