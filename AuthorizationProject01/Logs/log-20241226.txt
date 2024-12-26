@@ -1,0 +1,350 @@
+2024-12-26 13:22:35.037 +03:30 [INF] User profile is available. Using 'C:\Users\hoda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-26 13:22:35.172 +03:30 [INF] Executed DbCommand (104ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClaimType], [p].[ClaimValue], [p].[PolicyName], [p].[Role]
+FROM [PolicyDefinition] AS [p]
+2024-12-26 13:22:35.479 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/ - null null
+2024-12-26 13:22:35.719 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-26 13:22:35.720 +03:30 [INF] Hosting environment: Development
+2024-12-26 13:22:35.721 +03:30 [INF] Content root path: D:\Projects\AuthorizationProject01\AuthorizationProject01
+2024-12-26 13:22:35.967 +03:30 [INF] Executing endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:22:35.992 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AuthorizationProject01.Controllers.HomeController (AuthorizationProject01).
+2024-12-26 13:22:36.128 +03:30 [INF] Executing action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:22:36.137 +03:30 [INF] Executed action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.4359ms.
+2024-12-26 13:22:36.155 +03:30 [INF] Executing ViewResult, running view Index.
+2024-12-26 13:22:36.407 +03:30 [INF] Executed ViewResult - view Index executed in 255.1776ms.
+2024-12-26 13:22:36.412 +03:30 [INF] Executed action AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) in 417.7054ms
+2024-12-26 13:22:36.412 +03:30 [INF] Executed endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:22:36.576 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/ - 200 null text/html; charset=utf-8 1116.2665ms
+2024-12-26 13:22:36.642 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:22:36.646 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:22:36.656 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 12.649ms
+2024-12-26 13:22:36.806 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 160.4696ms
+2024-12-26 13:22:36.925 +03:30 [INF] Request starting HTTP/1.1 GET https://localhost:44317/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-12-26 13:22:36.970 +03:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'D:\Projects\AuthorizationProject01\AuthorizationProject01\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-12-26 13:22:36.979 +03:30 [INF] Request finished HTTP/1.1 GET https://localhost:44317/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 53.5844ms
+2024-12-26 13:22:44.227 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Role/AssignRole - null null
+2024-12-26 13:22:44.302 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-12-26 13:22:44.311 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-12-26 13:22:44.313 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Role/AssignRole - 302 null null 86.727ms
+2024-12-26 13:22:44.316 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Account/Login?ReturnUrl=%2FRole%2FAssignRole - null null
+2024-12-26 13:22:44.360 +03:30 [INF] Executing endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:22:44.363 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (AuthorizationProject01).
+2024-12-26 13:22:44.409 +03:30 [INF] Executing action method AccountController.Login (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:22:44.410 +03:30 [INF] Executed action method AccountController.Login (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3224ms.
+2024-12-26 13:22:44.411 +03:30 [INF] Executing ViewResult, running view Login.
+2024-12-26 13:22:44.431 +03:30 [INF] Executed ViewResult - view Login executed in 20.4297ms.
+2024-12-26 13:22:44.431 +03:30 [INF] Executed action AccountController.Login (AuthorizationProject01) in 67.9495ms
+2024-12-26 13:22:44.431 +03:30 [INF] Executed endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:22:44.434 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Account/Login?ReturnUrl=%2FRole%2FAssignRole - 200 null text/html; charset=utf-8 118.2984ms
+2024-12-26 13:22:44.471 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:22:44.477 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:22:44.479 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 1.7299ms
+2024-12-26 13:22:44.577 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 105.6654ms
+2024-12-26 13:22:54.098 +03:30 [INF] Request starting HTTP/2 POST https://localhost:44317/Account/Login?ReturnUrl=%2FRole%2FAssignRole - application/x-www-form-urlencoded 225
+2024-12-26 13:22:54.192 +03:30 [INF] Executing endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:22:54.206 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller AccountController (AuthorizationProject01).
+2024-12-26 13:22:54.279 +03:30 [INF] Executing action method AccountController.Login (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:22:54.473 +03:30 [INF] Executed DbCommand (29ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-12-26 13:22:54.735 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-12-26 13:22:54.793 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-12-26 13:22:54.806 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-12-26 13:22:54.830 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-12-26 13:22:54.840 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-26 13:22:54.854 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-12-26 13:22:54.857 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2024-12-26 13:22:54.858 +03:30 [INF] Executed action method AccountController.Login (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 579.5907ms.
+2024-12-26 13:22:54.861 +03:30 [INF] Executing RedirectResult, redirecting to /.
+2024-12-26 13:22:54.862 +03:30 [INF] Executed action AccountController.Login (AuthorizationProject01) in 656.1683ms
+2024-12-26 13:22:54.863 +03:30 [INF] Executed endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:22:54.870 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/ - null null
+2024-12-26 13:22:54.871 +03:30 [INF] Request finished HTTP/2 POST https://localhost:44317/Account/Login?ReturnUrl=%2FRole%2FAssignRole - 302 null null 773.5065ms
+2024-12-26 13:22:54.909 +03:30 [INF] Executing endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:22:54.909 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AuthorizationProject01.Controllers.HomeController (AuthorizationProject01).
+2024-12-26 13:22:54.942 +03:30 [INF] Executing action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:22:54.942 +03:30 [INF] Executed action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0323ms.
+2024-12-26 13:22:54.942 +03:30 [INF] Executing ViewResult, running view Index.
+2024-12-26 13:22:54.944 +03:30 [INF] Executed ViewResult - view Index executed in 2.3399ms.
+2024-12-26 13:22:54.945 +03:30 [INF] Executed action AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) in 35.5636ms
+2024-12-26 13:22:54.945 +03:30 [INF] Executed endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:22:54.946 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/ - 200 null text/html; charset=utf-8 75.2619ms
+2024-12-26 13:22:54.990 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:22:55.011 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:22:55.012 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 1.9551ms
+2024-12-26 13:22:55.095 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.8832ms
+2024-12-26 13:28:31.110 +03:30 [INF] User profile is available. Using 'C:\Users\hoda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-26 13:28:31.207 +03:30 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClaimType], [p].[ClaimValue], [p].[PolicyName], [p].[Role]
+FROM [PolicyDefinition] AS [p]
+2024-12-26 13:28:31.462 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/ - null null
+2024-12-26 13:28:31.571 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-26 13:28:31.572 +03:30 [INF] Hosting environment: Development
+2024-12-26 13:28:31.572 +03:30 [INF] Content root path: D:\Projects\AuthorizationProject01\AuthorizationProject01
+2024-12-26 13:28:31.757 +03:30 [INF] Executing endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:28:31.774 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AuthorizationProject01.Controllers.HomeController (AuthorizationProject01).
+2024-12-26 13:28:31.876 +03:30 [INF] Executing action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:28:31.885 +03:30 [INF] Executed action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.3833ms.
+2024-12-26 13:28:31.900 +03:30 [INF] Executing ViewResult, running view Index.
+2024-12-26 13:28:32.070 +03:30 [INF] Executed ViewResult - view Index executed in 162.0868ms.
+2024-12-26 13:28:32.072 +03:30 [INF] Executed action AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) in 297.2524ms
+2024-12-26 13:28:32.073 +03:30 [INF] Executed endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:28:32.091 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/ - 200 null text/html; charset=utf-8 646.6532ms
+2024-12-26 13:28:32.357 +03:30 [INF] Request starting HTTP/1.1 GET https://localhost:44317/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-12-26 13:28:32.399 +03:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'D:\Projects\AuthorizationProject01\AuthorizationProject01\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-12-26 13:28:32.408 +03:30 [INF] Request finished HTTP/1.1 GET https://localhost:44317/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 52.0003ms
+2024-12-26 13:28:32.480 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:28:32.495 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:28:32.504 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 8.5076ms
+2024-12-26 13:28:32.629 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.7325ms
+2024-12-26 13:28:34.055 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Role/AssignRole - null null
+2024-12-26 13:28:34.147 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-12-26 13:28:34.158 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-12-26 13:28:34.159 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Role/AssignRole - 302 null null 104.518ms
+2024-12-26 13:28:34.162 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Account/Login?ReturnUrl=%2FRole%2FAssignRole - null null
+2024-12-26 13:28:34.213 +03:30 [INF] Executing endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:28:34.216 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (AuthorizationProject01).
+2024-12-26 13:28:34.276 +03:30 [INF] Executing action method AccountController.Login (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:28:34.277 +03:30 [INF] Executed action method AccountController.Login (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3125ms.
+2024-12-26 13:28:34.281 +03:30 [INF] Executing ViewResult, running view Login.
+2024-12-26 13:28:34.308 +03:30 [INF] Executed ViewResult - view Login executed in 29.8628ms.
+2024-12-26 13:28:34.308 +03:30 [INF] Executed action AccountController.Login (AuthorizationProject01) in 91.9901ms
+2024-12-26 13:28:34.308 +03:30 [INF] Executed endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:28:34.311 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Account/Login?ReturnUrl=%2FRole%2FAssignRole - 200 null text/html; charset=utf-8 148.774ms
+2024-12-26 13:28:34.345 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:28:34.420 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:28:34.422 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 2.2443ms
+2024-12-26 13:28:34.471 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 128.8615ms
+2024-12-26 13:28:39.566 +03:30 [INF] Request starting HTTP/2 POST https://localhost:44317/Account/Login?ReturnUrl=%2FRole%2FAssignRole - application/x-www-form-urlencoded 225
+2024-12-26 13:28:39.618 +03:30 [INF] Executing endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:28:39.640 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller AccountController (AuthorizationProject01).
+2024-12-26 13:28:39.719 +03:30 [INF] Executing action method AccountController.Login (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:28:39.920 +03:30 [INF] Executed DbCommand (38ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-12-26 13:28:40.189 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-12-26 13:28:40.237 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-12-26 13:28:40.249 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-12-26 13:28:40.286 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-12-26 13:28:40.299 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-26 13:28:40.313 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-12-26 13:28:40.316 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2024-12-26 13:28:40.318 +03:30 [INF] Executed action method AccountController.Login (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 598.9238ms.
+2024-12-26 13:28:40.322 +03:30 [INF] Executing RedirectResult, redirecting to /.
+2024-12-26 13:28:40.323 +03:30 [INF] Executed action AccountController.Login (AuthorizationProject01) in 683.3428ms
+2024-12-26 13:28:40.324 +03:30 [INF] Executed endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:28:40.330 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/ - null null
+2024-12-26 13:28:40.354 +03:30 [INF] Request finished HTTP/2 POST https://localhost:44317/Account/Login?ReturnUrl=%2FRole%2FAssignRole - 302 null null 787.2537ms
+2024-12-26 13:28:40.375 +03:30 [INF] Executing endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:28:40.375 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AuthorizationProject01.Controllers.HomeController (AuthorizationProject01).
+2024-12-26 13:28:40.405 +03:30 [INF] Executing action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:28:40.405 +03:30 [INF] Executed action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0279ms.
+2024-12-26 13:28:40.406 +03:30 [INF] Executing ViewResult, running view Index.
+2024-12-26 13:28:40.409 +03:30 [INF] Executed ViewResult - view Index executed in 3.3437ms.
+2024-12-26 13:28:40.409 +03:30 [INF] Executed action AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) in 33.96ms
+2024-12-26 13:28:40.409 +03:30 [INF] Executed endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:28:40.410 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/ - 200 null text/html; charset=utf-8 79.9916ms
+2024-12-26 13:28:40.440 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:28:40.442 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 1.4402ms
+2024-12-26 13:28:40.442 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:28:40.550 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.6269ms
+2024-12-26 13:32:06.635 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Role/AssignRole - null null
+2024-12-26 13:32:06.772 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-12-26 13:32:06.775 +03:30 [INF] AuthenticationScheme: Identity.Application was forbidden.
+2024-12-26 13:32:06.776 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Role/AssignRole - 302 null null 142.5281ms
+2024-12-26 13:32:06.783 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Account/AccessDenied?ReturnUrl=%2FRole%2FAssignRole - null null
+2024-12-26 13:32:06.881 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Account/AccessDenied?ReturnUrl=%2FRole%2FAssignRole - 404 null null 98.0327ms
+2024-12-26 13:32:06.883 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44317/Account/AccessDenied, Response status code: 404
+2024-12-26 13:34:42.550 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:34:42.600 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 50.348ms
+2024-12-26 13:34:43.656 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Claim/AddClaim - null null
+2024-12-26 13:34:43.772 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-12-26 13:34:43.773 +03:30 [INF] AuthenticationScheme: Identity.Application was forbidden.
+2024-12-26 13:34:43.774 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Claim/AddClaim - 302 null null 117.4933ms
+2024-12-26 13:34:43.779 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Account/AccessDenied?ReturnUrl=%2FClaim%2FAddClaim - null null
+2024-12-26 13:34:43.824 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Account/AccessDenied?ReturnUrl=%2FClaim%2FAddClaim - 404 null null 45.3428ms
+2024-12-26 13:34:43.825 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44317/Account/AccessDenied, Response status code: 404
+2024-12-26 13:34:45.408 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:34:45.411 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.6003ms
+2024-12-26 13:34:57.766 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317//account/logout - null null
+2024-12-26 13:34:57.830 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317//account/logout - 404 null null 64.3711ms
+2024-12-26 13:34:57.831 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44317//account/logout, Response status code: 404
+2024-12-26 13:35:02.162 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:35:02.166 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 4.4127ms
+2024-12-26 13:35:09.253 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/account/logout - null null
+2024-12-26 13:35:09.331 +03:30 [INF] Executing endpoint 'AccountController.Logout (AuthorizationProject01)'
+2024-12-26 13:35:09.345 +03:30 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller AccountController (AuthorizationProject01).
+2024-12-26 13:35:09.398 +03:30 [INF] Executing action method AccountController.Logout (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:35:09.403 +03:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-12-26 13:35:09.404 +03:30 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-26 13:35:09.405 +03:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-12-26 13:35:09.405 +03:30 [INF] Executed action method AccountController.Logout (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 6.3961ms.
+2024-12-26 13:35:09.405 +03:30 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2024-12-26 13:35:09.406 +03:30 [INF] Executed action AccountController.Logout (AuthorizationProject01) in 60.5459ms
+2024-12-26 13:35:09.406 +03:30 [INF] Executed endpoint 'AccountController.Logout (AuthorizationProject01)'
+2024-12-26 13:35:09.407 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/account/logout - 302 null null 153.4908ms
+2024-12-26 13:35:09.410 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Account/Login - null null
+2024-12-26 13:35:09.457 +03:30 [INF] Executing endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:35:09.458 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (AuthorizationProject01).
+2024-12-26 13:35:09.516 +03:30 [INF] Executing action method AccountController.Login (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:35:09.516 +03:30 [INF] Executed action method AccountController.Login (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.035ms.
+2024-12-26 13:35:09.517 +03:30 [INF] Executing ViewResult, running view Login.
+2024-12-26 13:35:09.523 +03:30 [INF] Executed ViewResult - view Login executed in 5.9173ms.
+2024-12-26 13:35:09.523 +03:30 [INF] Executed action AccountController.Login (AuthorizationProject01) in 65.0426ms
+2024-12-26 13:35:09.523 +03:30 [INF] Executed endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:35:09.523 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Account/Login - 200 null text/html; charset=utf-8 113.0115ms
+2024-12-26 13:35:09.580 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:35:09.582 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 1.7409ms
+2024-12-26 13:35:09.592 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:35:09.666 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.0696ms
+2024-12-26 13:35:11.690 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Claim/AddClaim - null null
+2024-12-26 13:35:11.743 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-12-26 13:35:11.743 +03:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-12-26 13:35:11.744 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Claim/AddClaim - 302 null null 54.0675ms
+2024-12-26 13:35:11.751 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Account/Login?ReturnUrl=%2FClaim%2FAddClaim - null null
+2024-12-26 13:35:11.812 +03:30 [INF] Executing endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:35:11.813 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (AuthorizationProject01).
+2024-12-26 13:35:11.855 +03:30 [INF] Executing action method AccountController.Login (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:35:11.855 +03:30 [INF] Executed action method AccountController.Login (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0282ms.
+2024-12-26 13:35:11.856 +03:30 [INF] Executing ViewResult, running view Login.
+2024-12-26 13:35:11.858 +03:30 [INF] Executed ViewResult - view Login executed in 2.5176ms.
+2024-12-26 13:35:11.858 +03:30 [INF] Executed action AccountController.Login (AuthorizationProject01) in 45.5101ms
+2024-12-26 13:35:11.858 +03:30 [INF] Executed endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:35:11.859 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Account/Login?ReturnUrl=%2FClaim%2FAddClaim - 200 null text/html; charset=utf-8 108.7762ms
+2024-12-26 13:35:11.980 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:35:11.995 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 15.0196ms
+2024-12-26 13:35:12.023 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:35:12.126 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.9759ms
+2024-12-26 13:35:18.159 +03:30 [INF] Request starting HTTP/2 POST https://localhost:44317/Account/Login?ReturnUrl=%2FClaim%2FAddClaim - application/x-www-form-urlencoded 225
+2024-12-26 13:35:18.227 +03:30 [INF] Executing endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:35:18.227 +03:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller AccountController (AuthorizationProject01).
+2024-12-26 13:35:18.301 +03:30 [INF] Executing action method AccountController.Login (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:35:18.470 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-12-26 13:35:18.662 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-12-26 13:35:18.670 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-12-26 13:35:18.677 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-12-26 13:35:18.682 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-12-26 13:35:18.683 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-26 13:35:18.688 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-12-26 13:35:18.691 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2024-12-26 13:35:18.691 +03:30 [INF] Executed action method AccountController.Login (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 390.4907ms.
+2024-12-26 13:35:18.692 +03:30 [INF] Executing RedirectResult, redirecting to /.
+2024-12-26 13:35:18.692 +03:30 [INF] Executed action AccountController.Login (AuthorizationProject01) in 465.4634ms
+2024-12-26 13:35:18.693 +03:30 [INF] Executed endpoint 'AccountController.Login (AuthorizationProject01)'
+2024-12-26 13:35:18.694 +03:30 [INF] Request finished HTTP/2 POST https://localhost:44317/Account/Login?ReturnUrl=%2FClaim%2FAddClaim - 302 null null 534.7171ms
+2024-12-26 13:35:18.698 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/ - null null
+2024-12-26 13:35:18.762 +03:30 [INF] Executing endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:35:18.762 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AuthorizationProject01.Controllers.HomeController (AuthorizationProject01).
+2024-12-26 13:35:18.802 +03:30 [INF] Executing action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:35:18.802 +03:30 [INF] Executed action method AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0318ms.
+2024-12-26 13:35:18.802 +03:30 [INF] Executing ViewResult, running view Index.
+2024-12-26 13:35:18.804 +03:30 [INF] Executed ViewResult - view Index executed in 1.9482ms.
+2024-12-26 13:35:18.804 +03:30 [INF] Executed action AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01) in 41.957ms
+2024-12-26 13:35:18.804 +03:30 [INF] Executed endpoint 'AuthorizationProject01.Controllers.HomeController.Index (AuthorizationProject01)'
+2024-12-26 13:35:18.805 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/ - 200 null text/html; charset=utf-8 106.3439ms
+2024-12-26 13:35:18.858 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:35:18.861 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:35:18.869 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 11.4101ms
+2024-12-26 13:35:18.969 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.2347ms
+2024-12-26 13:35:29.807 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Claim/AddClaim - null null
+2024-12-26 13:35:29.895 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-12-26 13:35:29.895 +03:30 [INF] AuthenticationScheme: Identity.Application was forbidden.
+2024-12-26 13:35:29.896 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Claim/AddClaim - 302 null null 89.1133ms
+2024-12-26 13:35:29.915 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Account/AccessDenied?ReturnUrl=%2FClaim%2FAddClaim - null null
+2024-12-26 13:35:29.974 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Account/AccessDenied?ReturnUrl=%2FClaim%2FAddClaim - 404 null null 58.3056ms
+2024-12-26 13:35:29.974 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44317/Account/AccessDenied, Response status code: 404
+2024-12-26 13:35:32.598 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:35:32.614 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 16.1508ms
+2024-12-26 13:35:34.265 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Role - null null
+2024-12-26 13:35:34.351 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-12-26 13:35:34.351 +03:30 [INF] AuthenticationScheme: Identity.Application was forbidden.
+2024-12-26 13:35:34.352 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Role - 302 null null 87.0498ms
+2024-12-26 13:35:34.360 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/Account/AccessDenied?ReturnUrl=%2FRole - null null
+2024-12-26 13:35:34.437 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/Account/AccessDenied?ReturnUrl=%2FRole - 404 null null 77.5676ms
+2024-12-26 13:35:34.437 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44317/Account/AccessDenied, Response status code: 404
+2024-12-26 13:35:35.975 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:35:35.977 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 1.5324ms
+2024-12-26 13:35:37.030 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/InfoPage - null null
+2024-12-26 13:35:37.104 +03:30 [INF] Executing endpoint 'InfoPageController.Index (AuthorizationProject01)'
+2024-12-26 13:35:37.110 +03:30 [INF] Route matched with {action = "Index", controller = "InfoPage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller InfoPageController (AuthorizationProject01).
+2024-12-26 13:35:37.154 +03:30 [INF] Executing action method InfoPageController.Index (AuthorizationProject01) - Validation state: "Valid"
+2024-12-26 13:35:37.230 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-12-26 13:35:37.240 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__userId_0
+2024-12-26 13:35:37.244 +03:30 [INF] Executed action method InfoPageController.Index (AuthorizationProject01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 90.176ms.
+2024-12-26 13:35:37.245 +03:30 [INF] Executing ViewResult, running view Index.
+2024-12-26 13:35:37.256 +03:30 [INF] Executed ViewResult - view Index executed in 12.2643ms.
+2024-12-26 13:35:37.257 +03:30 [INF] Executed action InfoPageController.Index (AuthorizationProject01) in 146.8749ms
+2024-12-26 13:35:37.257 +03:30 [INF] Executed endpoint 'InfoPageController.Index (AuthorizationProject01)'
+2024-12-26 13:35:37.258 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/InfoPage - 200 null text/html; charset=utf-8 227.2665ms
+2024-12-26 13:35:37.303 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:35:37.304 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 1.7213ms
+2024-12-26 13:35:37.308 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_vs/browserLink - null null
+2024-12-26 13:35:37.445 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_vs/browserLink - 200 null text/javascript; charset=UTF-8 136.9986ms
+2024-12-26 13:35:38.899 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-26 13:35:38.904 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44317/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 5.0038ms

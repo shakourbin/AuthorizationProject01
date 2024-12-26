@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,10 +37,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
   .AddCookie(options =>
     {
+        options.EventsType = typeof(CustomCookieAuthenticationEvents);
+        options.Cookie.Name = "MyAuthCookie";
+        options.SlidingExpiration = true;
+        options.ExpireTimeSpan = TimeSpan.FromDays(14);
         options.LoginPath = "/Account/Login"; // Set your login path
         options.LogoutPath = "/Account/Logout"; // Set your logout path
                                                 // options.LoginPath = "/Account/Login";
     });
+
+builder.Services.AddScoped<CustomCookieAuthenticationEvents>();
 
 builder.Services.AddAuthorization(async options =>
 {
@@ -73,6 +80,16 @@ builder.Services.AddAuthorization(async options =>
     //options.AddPolicy("CanViewReports", policy => policy.RequireClaim("CanViewReports", "true"));
     //options.AddPolicy("CanViewReports", policy => policy.RequireClaim("CanViewReports"));
 });
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console() // Console logging
+    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Logging.ClearProviders(); // Remove default logging
+builder.Logging.AddSerilog(); // Add Serilog as the logging provider
+
+
 
 var app = builder.Build();
 
