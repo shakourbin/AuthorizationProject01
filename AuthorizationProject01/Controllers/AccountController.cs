@@ -2,17 +2,22 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Runtime.InteropServices;
 using System.Security.Claims;
 
 public class AccountController : Controller
 {
     private readonly UserManager<IdentityUser> _userManager;
     private readonly SignInManager<IdentityUser> _signInManager;
+    private readonly ApplicationDbContext _dbContext;
 
-    public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+
+    public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, ApplicationDbContext dbContext)
     {
         _userManager = userManager;
         _signInManager = signInManager;
+        _dbContext = dbContext;
     }
 
     public IActionResult Register() => View();
@@ -54,7 +59,7 @@ public class AccountController : Controller
             var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
-
+            this.CreateTemp(user.Id);
             return RedirectToAction("Index", "Home");
         }
 
@@ -66,6 +71,20 @@ public class AccountController : Controller
     {
         await _signInManager.SignOutAsync();
         return RedirectToAction("Login");
+    }
+
+    public void CreateTemp(string userId)
+    {
+       var builder =  WebApplication.CreateBuilder();
+        using (var scope = builder.Services.BuildServiceProvider().CreateScope())
+        {
+            
+            UserClaimsService claimsService = new UserClaimsService(_dbContext);
+            claimsService.InsertUserClaims(userId);
+        }
+            
+
+        //claimsService.InsertUserClaims();
     }
 }
 

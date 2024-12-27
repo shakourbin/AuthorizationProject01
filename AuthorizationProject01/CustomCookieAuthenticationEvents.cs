@@ -16,6 +16,7 @@ public class CustomCookieAuthenticationEvents : CookieAuthenticationEvents
     {
         try
         {
+            //Logging cookie value 
             // Retrieve the cookie value
             var cookieData = context.Request.Cookies[context.Options.Cookie.Name];
 

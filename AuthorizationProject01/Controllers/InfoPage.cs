@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 //[Authorize(Roles = "User")]
-[Authorize(Policy = "PolicyViewInfo")]
+//[Authorize(Policy = "PolicyViewInfo")]
 public class InfoPageController : Controller
 {
     private readonly UserManager<IdentityUser> _userManager;
@@ -55,7 +55,8 @@ public class InfoPageController : Controller
     }
 
     [HttpPost]
-    [Authorize(Policy = "PolicySubmitInfo")]
+    //[Authorize(Policy = "PolicySubmitInfo")]
+    [Authorize(Policy = "AgePolicy")]
     public IActionResult Submit(string name, string surname, DateTime birthday, int bankAccount)
     {
         // Process the submitted data
